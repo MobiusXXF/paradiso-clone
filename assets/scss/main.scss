@@ -5,16 +5,62 @@ $body-bg: black;
 :root {
     font-family: $main-font;
     color: $default-color;
+    height: 500vh;
 }
 
 body {
     background-color: $body-bg;
     height: 100vh;
     width: auto;
+    z-index: 0;
+    margin: 50px 50px 60px 50px;
 }
 
-.header {
-    border: 1px solid orange;
-    width: 10vh;
+nav {
     height: 50px;
+    width: auto;
+    border: 1px solid white;
+    padding: 24px 0;
+    margin: 40px 0;
+    display: flex;
+    font-size: 24px;
 }
+
+.welcome {
+    img {
+        opacity: 1;
+        z-index: 3;
+        transition: 300ms ease;
+        position: absolute;
+    }
+    
+    img:hover {
+            transform: scale(1.05);
+            translate: 20px 20px;
+            transition: 300ms ease;
+        }
+}
+
+.events {
+    translate: 0 140px;
+}
+
+.display {
+    display: grid;
+    z-index: 2;
+    position: absolute;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+
+    &:nth-child(3) {
+        // background img here instead of in html,
+        // easier to construct layers this way??
+        translate: 600px;
+    }
+
+}
+
+// @media screen {
+    
+// }
