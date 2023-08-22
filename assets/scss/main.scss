@@ -13,7 +13,7 @@ body {
     height: 100vh;
     width: auto;
     z-index: 0;
-    margin: 50px 50px 60px 50px;
+    margin: 50px 50px 50px 50px;
 }
 
 nav {
@@ -32,6 +32,7 @@ nav {
         z-index: 3;
         transition: 300ms ease;
         position: absolute;
+        transform: scale(-1);
     }
     
     img:hover {
@@ -46,17 +47,25 @@ nav {
 }
 
 .display {
-    display: grid;
+    display: flex;
     z-index: 2;
     position: absolute;
     gap: 0;
     margin: 0;
     padding: 0;
 
+    &:nth-child(1) {
+        translate: 0;
+    }
+
+    &:nth-child(2) {
+        translate: 0 600px;
+    }
+
     &:nth-child(3) {
         // background img here instead of in html,
         // easier to construct layers this way??
-        translate: 600px;
+        translate: 598px;
     }
 
 }
