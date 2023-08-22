@@ -1,0 +1,20 @@
+$main-font: sans-serif;
+$default-color: white;
+$body-bg: black;
+
+:root {
+    font-family: $main-font;
+    color: $default-color;
+}
+
+body {
+    background-color: $body-bg;
+    height: 100vh;
+    width: auto;
+}
+
+.header {
+    border: 1px solid orange;
+    width: 10vh;
+    height: 50px;
+}

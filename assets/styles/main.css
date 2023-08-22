@@ -1,0 +1,16 @@
+:root {
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  width: auto;
+}
+
+.header {
+  border: 1px solid orange;
+  width: 10vh;
+  height: 50px;
+}

@@ -1,3 +1,3 @@
 # paradiso-clone
 
-# This project is a clone of the Paradiso website using Bootstrap. It was created as part of a Bootstrap challenge to practice using the Bootstrap framework and its components. The website features a responsive layout and includes various elements such as a navigation bar, cards, and forms. The project was created using HTML, CSS, and Bootstrap, and provides a way to improve my web development skills.
+# This project is a clone of the Paradiso website using Bootstrap. It was created as part of a Bootstrap challenge to practice using the Bootstrap framework and its components. The website features a responsive layout and includes various elements such as a navigation bar, cards, and forms. The project was created using HTML, CSS, and Bootstrap. Serving as a way to improve my web development skills.
